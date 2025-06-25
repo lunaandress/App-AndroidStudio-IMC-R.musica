@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/rojo"
+    android:orientation="horizontal">
+
+    <!-- Tab 1 -->
+    <LinearLayout
+        android:id="@+id/tab1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:onClick="clic_tab">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:src="@drawable/calculadora2"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CALCULO"
+            android:textAlignment="center"
+            android:textColor="#F1F1F1" />
+    </LinearLayout>
+
+    <!-- Tab 2 -->
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:onClick="clic_tab">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/usuario" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DATOS"
+            android:textColor="#F1F1F1"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <!-- Tab 3 -->
+    <LinearLayout
+        android:id="@+id/tab3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:onClick="clic_tab">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/noticia" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NOTICIAS"
+            android:textColor="#F1F1F1"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <!-- Tab 4 (Nuevo) -->
+    <LinearLayout
+        android:id="@+id/tab4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:onClick="clic_tab">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/musica" /> <!-- Cambia esto por el ícono adecuado -->
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MUSICA GYM"
+            android:textColor="#F1F1F1"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>
